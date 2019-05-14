@@ -1,0 +1,14 @@
+Modelos bayesianos y teorema de bayes
+
+Teorema de bayes: Se sabe la probabilidad de los efectos dado las causas, pero queremos saber lo contrario causas debido a efectos.
+
+
+
+Algunos Modelos:
+->Red Bayesiana
+
+Inferencia Bayesiana:
+3 tipos de incertidumbre:
+	Ignorancia
+	Aleatoreidad
+	Vaguedad
