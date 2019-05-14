@@ -1,0 +1,59 @@
+Una inteligencia artificial percibe el entorno
+
+ML es una subdisciplina de la IA, sistemas capaces del reconocimiento de patrones. computadoras con habilidad de aprender sin ser explicitamente programadas
+
+aplicaciones de ML. Big data, salud, marketing, procesamiento de lenguaje natural. finanzas, reconocimiento de imagenes y voz, asistentes virtuales
+
+objetivo: desarrollar tecnicas que permitan que las computadoras aprendan, a partir de un conjunto de observaciones, reconstruir un modelo general
+
+>ambas intentan emular las funciones cognitivas del ser humano
+
+>inteligencia artificial: capacidad de llevar a cabo las tareas de una manera considerada inteligente
+>ml: aprende por si mismo
+
+aprendizaje supervisado: el sistema trabaja bajo problemas ya resueltos que seguiran surgiendo en un futuro
+
+aprendizaje no supervisado: el algoritmo no cuenta con ninguna indicacion previa, pero se le provee de gran cantidad con caracteristicas propias de un objeto para que pueda determinar que es a partir de informacion recopilada
+
+aprendizaje reforzado: a base de prueba y error
+
+analisis predictivo
+>es un area de la mineria del dato que pretende extraer conocimiento que le permita predecir tendencias y patrones de comportamiento
+
+modelos predictivos
+
+modelos descriptivos
+>proporciona resumennes simples sobre la audiencia de la muestra y sobre las observaciones que se han hecho
+>identifican diferentes relaciones entre los datos. sirve mas para investigacion
+
+modelos de decision
+>se utilizan en general para el desarrollo de la decision logica o conjunto de reglas de negocio que deberian producir el resultado desado para cada cliente o circunstancia
+
+pasos
+>definir el problema: traducir el problema de negocio a un lenguaje analitico y estadisticamente posible
+>seleccion de la metodologia: dependera del problema de negocio y la informacion disponible para el proceso
+>muestreo y datos requeridos: buscar que tengan un margen de error minimo y nivel de confianza maximo
+>analisis descriptivo: exploracion de datos utilizando metodologias numericas, graficas y relacion entre variables
+>analisis predictivo: modelamiento estadistico generalmente hecho con un software
+>pruebas e implementacion: pruebas de estres con datos no utilizados en el proceso de modelamiento
+>entrenamiento y aprendizaje: se deberan ajustar conforme pasa el tiempo y las demandas o condiciones sobre la generacion de nueva informacion cambia
+
+algunas tecnicas aplicables
+>tecnicas de regresion
+>redes neuronales
+>maquinas de vectores de soporte
+>k-vecinos mas cercanos
+
+vaclidacion de los modelos
+>se dispone de un conjunto de datos sobre el cual se desarrollara el modelo, este conjunto abarcará dos terceras partes de la muestra y se denomina training set. Por otro lado, la tercera parte sobrante se utilizara para validar el modelo y se denomina test set
+
+dificultades
+>sobreentrenamiento: llegar a patrones tan especificos que se pierde la generalizacion
+
+soluciones
+>retencion de datos: no pasarle todos los datos para que aprenda
+>validacion cruzada: tecnica utilizada en un analisis estadistico para garantizar que los resultados son independientes de la particion entre datos de entrenamiento y prueba
+
+WATSON
+>es un inteligencia artificial que es capaz de responder a preguntas formuladas en lenguaje natural desarrollado por IBM
+>hace uso de ml y procesamiento de lenguaje natural
