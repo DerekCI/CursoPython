@@ -30,3 +30,11 @@ print(boston.feature_names)#RM numero de habitaciones
 x=boston.data[:,np.newaxis,5]
 y= boston.target
 #Vemos el grafico
+plt.figure(1)
+plt.scatter(x,y)
+#----Separamos los datos de entrenamiento---
+X_train,X_test,Y_train,Y_test = train_test_split(x,y,test_size=0.2)
+#Creamos un nuevo modelo de regresion lineal
+lr = linear_model.LinearRegression()
+#Entrenar, con los datos elegidos de la proporcion (20%) trata de hacer un modelo
+lr.fit(X_train,Y_train)
