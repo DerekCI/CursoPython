@@ -38,3 +38,20 @@ X_train,X_test,Y_train,Y_test = train_test_split(x,y,test_size=0.2)
 lr = linear_model.LinearRegression()
 #Entrenar, con los datos elegidos de la proporcion (20%) trata de hacer un modelo
 lr.fit(X_train,Y_train)
+#Realizar la prediccion con datos no usados anteriormente
+#COmparando los valores
+Y_pred = lr.predict(X_test)
+#Linea aproximada. Los datos fuera de la linea son errores
+#Probamos con datos no usados
+plt.plot(X_test,Y_pred, color= 'yellow', linewidth=5)
+plt.show()
+#El modelo no abarco todos los puntos, esos son errores de precision
+#Obteniendo la pendiente:
+#pendiente = lr.coef_
+#Obteniendo b, que es el valor de la ordenada al origen
+#b = lr.intercept_
+#La ecuacion de regresion lineal simple es:
+#print("y= ",b,"+ x",pendiente)
+#Para obtener R², que es la precision del modelo:
+#rcuadrada = lr.score(X_train,Y_train)
+#print("Precision: ", rcuadrada)
